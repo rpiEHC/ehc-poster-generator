@@ -2,7 +2,7 @@
   "name": "ehc-poster-gen",
   "version": "1.0.0",
   "description": "",
-  "main": "generate.js",
+  "main": "server.js",
   "directories": {
     "test": "tests"
   },

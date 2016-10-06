@@ -4,18 +4,20 @@ var express = require('express');
 var app = express();
 
 let required_params = ["title", "description", "location", "time",
-                       "event_date", "takedown"]
+                       "event_date", "takedown", "template"]
 app.get('/', function (req, res) {
 
   let incorrect_params = required_params
     .filter(param => !req.query[param]);
 
+  if (incorrect_params.length == required_params.length)
+    res.sendFile(`${__dirname}/index.html`);
+
   if (incorrect_params.length > 0)
     return res.send(`Missing query parameters: ${incorrect_params}`);
 
- console.log(req.query.description);
-
   generator.generate({
+    poster_path: `./${req.query.template}.svg`, // is this dangerous? yea!
     title: req.query.title,
     description: req.query.description,
     location: req.query.location,

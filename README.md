@@ -44,7 +44,7 @@ uh, [docker](https://www.docker.com/)
 
 #### Running
 
-`docker run -v $(pwd):/root -it node "cd /root && npm install && npm start"`
+`docker run --net host --rm -v $(pwd):/usr/src/app -it node bash -c "cd /usr/src/app && npm install && npm start"`
 
 ## TODOs
 

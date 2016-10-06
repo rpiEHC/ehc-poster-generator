@@ -73,7 +73,7 @@
            y="71.647919"
            x="26.5"
            id="tspan3338"
-           sodipodi:role="line">{{TITLE}}</tspan></text>
+           sodipodi:role="line">PCB Design Workshop</tspan></text>
       <g
          transform="translate(4.2857143,241.71429)"
          id="g3448">
@@ -121,7 +121,7 @@
                x="37.375645"
                id="tspan3455"
                sodipodi:role="line"
-               style="font-size:30px">{{LOCATION}} @ {{TIME}} {{EVENT_DATE}}</tspan></text>
+               style="font-size:30px">JEC 1234 @ 6pm 10/15</tspan></text>
           <text
              sodipodi:linespacing="125%"
              id="text3457"
@@ -147,7 +147,7 @@
            id="tspan4413"
            x="627.65826"
            y="463.36749"
-           style="font-size:12.5px">takedown {{TAKEDOWN}}</tspan></text>
+           style="font-size:12.5px">takedown 10/15</tspan></text>
       <flowRoot
          xml:space="preserve"
          id="flowRoot4604"
@@ -159,7 +159,9 @@
              x="29"
              y="104.36221" /></flowRegion><flowPara
            id="flowPara4610"
-           style="font-size:20px">{{DESCRIPTION}}</flowPara></flowRoot>    </g>
+           style="font-size:20px">Learn to design PCBs! Join us in this session where we'll
+go over footprints, schematics, layouts, popular pcb
+packages and how to order PCBs online!</flowPara></flowRoot>    </g>
     <flowRoot
        xml:space="preserve"
        id="flowRoot3493"
@@ -191,7 +193,7 @@
            y="71.647919"
            x="26.5"
            id="tspan3338-2"
-           sodipodi:role="line">{{TITLE}}</tspan></text>
+           sodipodi:role="line">PCB Design Workshop</tspan></text>
       <g
          transform="translate(4.2857143,241.71429)"
          id="g3448-8">
@@ -239,7 +241,7 @@
                x="37.375645"
                id="tspan3455-6"
                sodipodi:role="line"
-               style="font-size:30px">{{LOCATION}} @ {{TIME}} {{EVENT_DATE}}</tspan></text>
+               style="font-size:30px">JEC 1234 @ 6pm 10/15</tspan></text>
           <text
              sodipodi:linespacing="125%"
              id="text3457-2"
@@ -265,7 +267,7 @@
            id="tspan4413-0"
            x="627.65826"
            y="463.36749"
-           style="font-size:12.5px">takedown {{TAKEDOWN}}</tspan></text>
+           style="font-size:12.5px">takedown 10/15</tspan></text>
       <flowRoot
          xml:space="preserve"
          id="flowRoot4604-3"
@@ -277,6 +279,8 @@
              x="29"
              y="104.36221" /></flowRegion><flowPara
            id="flowPara4610-3"
-           style="font-size:20px">{{DESCRIPTION}}</flowPara></flowRoot>    </g>
+           style="font-size:20px">Learn to design PCBs! Join us in this session where we'll
+go over footprints, schematics, layouts, popular pcb
+packages and how to order PCBs online!</flowPara></flowRoot>    </g>
   </g>
 </svg>

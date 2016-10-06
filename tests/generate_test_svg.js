@@ -3,8 +3,8 @@ var generator = require("../generate");
 generator.generate({
   poster_path: "../poster.svg",
   title: "PCB Design Workshop",
-  description: `Learn to design PCBs! Join us in this session where we'll
-go over footprints, schematics, layouts, popular pcb
+  description: `Learn to design PCBs! Join us in this session where we'll\n
+go over footprints, schematics, layouts, popular pcb\n
 packages and how to order PCBs online!`,
   location: 'JEC 1234',
   time: '6pm',

@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
     .filter(param => !req.query[param]);
 
   if (incorrect_params.length == required_params.length)
-    res.sendFile(`${__dirname}/index.html`);
+    return res.sendFile(`${__dirname}/index.html`);
 
   if (incorrect_params.length > 0)
     return res.send(`Missing query parameters: ${incorrect_params}`);

@@ -7,7 +7,7 @@ function replace(original, replacement){
 }
 
 function generate(info){
-  fs.readFile('./poster.svg', (err, poster) => {
+  fs.readFile(info.poster_path || './poster.svg', (err, poster) => {
     if (err) throw err;
     poster = poster.toString();
     replace("{{TITLE}}", info.title)(poster)
@@ -23,3 +23,6 @@ function generate(info){
       });
   });
 }
+
+
+module.exports.generate = generate;
